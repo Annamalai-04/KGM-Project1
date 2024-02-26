@@ -440,4 +440,24 @@ background-size: cover;
   background-color: lightgreen; 
 }
 }
- 
+@media screen and (min-width: 0px) and (max-width: 420px){
+  #nav1{
+    width: 120px;
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    color: rgb(15, 9, 9);
+    background-color: black;
+    position: static;
+    top: 0px;
+    margin-left: 60%;
+    z-index: 100;
+   
+}
+#nav1left li:first-child{
+  display: inline-block;
+  position: absolute;
+  left: -100px;
+  z-index: 100;
+}
+}
