@@ -1,0 +1,118 @@
+#section8{
+    background-color: black; 
+    max-width: 1550px;
+    height: 100vh;
+}
+
+#box{
+    max-width: 1550px;
+    height: 150vh;
+    display: grid;
+    background-color:rgb(247, 239, 239);
+    grid-template-areas: "o o o o o"
+                         "a a a a b"
+                         "c d e f g "
+                         "h h h h h"
+                         "i i i i i"
+                         "j j j j j";
+    grid-template-rows: 50px 90px 350px 40px 80px 80px;
+     grid-template-columns: auto;
+    }
+    .box0{
+        grid-area: o;
+
+    }
+.box1{
+    grid-area: a;
+    /* background-color:aliceblue; */
+    line-height: 10px;
+    /* padding-top: 20px; */
+    padding-left: 40px;
+}
+
+.box2{
+    grid-area: b;
+    /* background-color:saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box2 span i:nth-child(2){
+    color: gainsboro;
+}
+.box3{
+    grid-area: c;
+    /* background-color:lawngreen; */
+}
+.box2 span i{
+    font-size: 30px;
+}
+.box4{
+    grid-area: d;
+    /* background-color:tan; */
+}
+.box5{
+    grid-area: e;
+    /* background-color:ivory; */
+}
+.box6{
+    grid-area: f;
+    /* background-color:cadetblue; */
+}
+@media screen and (min-width: 1050px) and (max-width: 1210px)
+{
+   
+    .box7{
+        grid-area: g;
+        /* background-color:red; */
+        display: none;
+    }
+}
+.box7{
+    grid-area: g;
+    /* background-color:red; */
+}
+.box8{
+    grid-area: h;
+    /* background-color:wheat; */
+    
+}
+.box9{
+    grid-area: i;
+    /* background-color:palevioletred; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    grid-area: j;
+    /* background-color:rosybrown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 div img{
+    padding: 50px;
+}
+#fig4{
+    /* background-color: aliceblue; */
+    width: fit-content;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#fig4 div{
+    padding-top: 20px;
+}
+#fig4 img{
+    border-radius: 10px;
+    transition: transform 0.5s,transform-origin 0.3s ease;
+}
+
+#fig4:hover img{
+    transform: scale(0.9);
+    transform-origin: center center;
+    overflow: hidden;
+    
+}

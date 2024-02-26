@@ -1,0 +1,408 @@
+@media screen and (min-width: 800px) and (max-width: 1050px)
+{
+    #section5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        max-width: 1050px;
+       /* background-color: aqua; */
+    }
+    #section5>#Continer{
+        max-width: 1050px;
+        height: 90%;
+        /* margin-top: -160%; */
+        /* background-color: rgb(217, 141, 41); */
+        display: grid;
+        grid-template-areas:  "a b";
+        grid-template-rows:700px 700px;
+        grid-template-columns: 400px auto;
+        gap:50px
+    }
+    #leftbox{
+        grid-area: a;
+        background-color: rgb(5, 42, 74);
+        background-image: url('https://creativelayers.net/themes/homez-html/images/about/about-2.png');
+        background-repeat: no-repeat;
+    }
+    #rightbox{
+        grid-area: b;
+        /* background-color: aquamarine; */
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        /* width: 300px; */
+        /* margin-left: -85%; */
+    }
+    #rightbox >p{
+        padding: 0;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+    #rightbox>h1{
+        font-size: 40px;
+    }
+    #leftbox .bb1{
+        width: 200px;
+        height: 80px;
+        background-color: rgb(248, 247, 245);
+        position: absolute;
+        left: 30%;
+        top: 10%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    #leftbox .bb1 i{
+        /* background-color: blue; */
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 45px;
+        margin-right: 10px;
+        border: 2px inset black;
+        transition: all 0.3s ease-out;
+        
+    }
+    #leftbox .bb1:hover i{
+        width: 55px;
+        height: 55px;
+    }
+    #leftbox .bb1 i:hover{
+        /* -webkit-text-fill-color: orange; */
+    }
+    #leftbox .bb2{
+        width: 370px;
+        height: 220px;
+        background-color: rgb(248, 247, 245);
+        position: absolute;
+        left: 8%;
+        top:70px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+         animation: moveUpDown 3s infinite linear;
+        transition: all 1s linear; 
+    }
+    #leftbox .bb2 table tr,td{
+        /* border: 1px solid black; */
+        padding: 5px;
+        text-align: left;
+        font-size: 17px;
+    
+    }
+    #leftbox .bb2 td a{
+        text-decoration: none;
+    }
+    #leftbox .bb2:hover #a1{
+        text-decoration: underline;
+    }
+    #leftbox .bb2 a:hover{
+        text-decoration: underline;
+    }
+    #leftbox .bb2 table tr:first-child{
+        font-weight: 800;
+    }
+    #leftbox .bb2 table tr:last-child{
+        font-weight: 800;
+    }
+     /* @keyframes moveUpDown {
+        0% {
+          top: -2%;
+        }
+        50% {
+          top: 2%;
+        }
+        100% {
+          top: -2%;
+        }
+      }  */
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px)
+{
+    #section5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        max-width: 800px;
+       /* background-color: aqua; */
+    }
+    #section5>#Continer{
+        max-width: 800px;
+        height: 90%;
+        /* margin-top: -160%; */
+        /* background-color: rgb(215, 200, 182); */
+        display: grid;
+        grid-template-areas:  "a b";
+        grid-template-rows: 500px 500px;
+        grid-template-columns: 300px auto;
+        gap:10px
+    }
+    #leftbox{
+        grid-area: a;
+        /* background-color: rgb(41, 118, 186); */
+        background-image: url('https://creativelayers.net/themes/homez-html/images/about/about-2.png');
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: center;
+        /* width: 500px; */
+    }
+    #rightbox{
+        grid-area: b;
+        /* background-color: aquamarine; */
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        /* padding-top: 50px; */
+        /* margin-top: 20%; */
+    }
+    #rightbox >p{
+        padding: 0;
+        padding-top: 0px;
+        font-weight: 500;
+    }
+    #rightbox>h1{
+        font-size: 30px;
+    }
+    #rightbox>h1:first-child{
+        /* background-color: aqua; */
+        
+    }
+    #leftbox .bb1{
+        width: 190px;
+        height: 55px;
+        background-color: rgb(248, 247, 245);
+        position: absolute;
+        left: 25%;
+        top: 14%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    #leftbox .bb1 i{
+        /* background-color: blue; */
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 25px;
+        margin-left: 10px;
+        border: 2px inset black;
+        transition: all 0.3s ease-out;
+        
+    }
+    #leftbox .bb1:hover i{
+        width: 55px;
+        height: 55px;
+    }
+    #leftbox .bb1 i:hover{
+        /* -webkit-text-fill-color: orange; */
+    }
+    #leftbox .bb2{
+        width: 300px;
+        height: 200px;
+        background-color: rgb(248, 247, 245);
+        position: absolute;
+        left: 8%;
+        top:10%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+         animation: moveUpDown 3s infinite linear;
+        transition: all 1s linear; 
+    }
+    #leftbox .bb2 table tr,td{
+        /* border: 1px solid black; */
+        padding: 5px;
+        text-align: left;
+        font-size: 17px;
+    
+    }
+    #leftbox .bb2 td a{
+        text-decoration: none;
+    }
+    #leftbox .bb2:hover #a1{
+        text-decoration: underline;
+    }
+    #leftbox .bb2 a:hover{
+        text-decoration: underline;
+    }
+    #leftbox .bb2 table tr:first-child{
+        font-weight: 800;
+    }
+    #leftbox .bb2 table tr:last-child{
+        font-weight: 800;
+    }
+     /* @keyframes moveUpDown {
+        0% {
+          top: -2%;
+        }
+        50% {
+          top: 2%;
+        }
+        100% {
+          top: -2%;
+        }
+      }  */
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+    #section5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        max-width: 770px;
+       /* background-color: aqua; */
+    }
+    #section5>#Continer{
+        max-width: 500px;
+        height: 90%;
+        margin-top: -160%;
+        /* background-color: rgb(217, 141, 41); */
+        display: grid;
+        grid-template-areas:  "a a"
+                              "b b" ;
+        grid-template-rows: 600px;
+        grid-template-columns: 200px auto;
+        gap:170px
+    }
+    #leftbox{
+        grid-area: a;
+        /* background-color: rgb(19, 98, 167); */
+        background-image: url('https://creativelayers.net/themes/homez-html/images/about/about-2.png');
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-position: center;
+        width: 500px;
+        margin: -5%;
+    }
+    #rightbox{
+        grid-area: b;
+        /* background-color: aquamarine; */
+        width: 500px;
+        margin: -19%;
+        padding-left: 110px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    #rightbox >p{
+        padding: 0;
+        padding-top: 0px;
+        font-weight: 500;
+    }
+    #rightbox>h1{
+        font-size: 50px;
+    }
+    #rightbox>h1:first-child{
+        font-size: 35px;
+        width: 500px;
+    }
+    #leftbox .bb1{
+        width: 240px;
+        height: 100px;
+        background-color: rgb(248, 247, 245);
+        position: absolute;
+        left: 50%;
+        top: -39%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    #leftbox .bb1 i{
+        /* background-color: blue; */
+        display: flex;
+        width: 70px;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 45px;
+        margin-right: 10px;
+        border: 2px inset black;
+        transition: all 0.3s ease-out;
+        
+    }
+    #leftbox .bb1:hover i{
+        width: 75px;
+        height: 75px;
+    }
+    #leftbox .bb1 i:hover{
+        /* -webkit-text-fill-color: orange; */
+    }
+    #leftbox .bb2{
+        width: 340px;
+        height: 220px;
+        background-color: rgb(248, 247, 245);
+        position: absolute;
+        left: 8%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+         animation: moveUpDown 3s infinite linear;
+        transition: all 1s linear; 
+    }
+    #leftbox .bb2 table tr,td{
+        /* border: 1px solid black; */
+        padding: 5px;
+        text-align: left;
+        font-size: 17px;
+    
+    }
+    #leftbox .bb2 td a{
+        text-decoration: none;
+    }
+    #leftbox .bb2:hover #a1{
+        text-decoration: underline;
+    }
+    #leftbox .bb2 a:hover{
+        text-decoration: underline;
+    }
+    #leftbox .bb2 table tr:first-child{
+        font-weight: 800;
+    }
+    #leftbox .bb2 table tr:last-child{
+        font-weight: 800;
+    }
+     @keyframes moveUpDown {
+        0% {
+          top: -2%;
+        }
+        50% {
+          top: 2%;
+        }
+        100% {
+          top: -2%;
+        }
+      } 
+}

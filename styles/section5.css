@@ -1,0 +1,126 @@
+#section5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 1550px;
+
+}
+#section5>#Continer{
+    max-width: 1550px;
+    height: 90%;
+    /* background-color: rgb(217, 141, 41); */
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-rows: 100%;
+    grid-template-columns: 600px auto;
+    gap:170px
+}
+#leftbox{
+    grid-area: a;
+    /* background-color: aliceblue; */
+    background-image: url('https://creativelayers.net/themes/homez-html/images/about/about-2.png');
+    background-repeat: no-repeat;
+}
+#rightbox{
+    grid-area: b;
+    /* background-color: aquamarine; */
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    
+}
+#rightbox >p{
+    padding: 0;
+    padding-top: 20px;
+    font-weight: 500;
+}
+#rightbox>h1{
+    font-size: 50px;
+}
+#leftbox .bb1{
+    width: 240px;
+    height: 100px;
+    background-color: rgb(248, 247, 245);
+    position: absolute;
+    left: 30%;
+    top: 7%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#leftbox .bb1 i{
+    /* background-color: blue; */
+    display: flex;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 45px;
+    margin-right: 10px;
+    border: 2px inset black;
+    transition: all 0.3s ease-out;
+    
+}
+#leftbox .bb1:hover i{
+    width: 75px;
+    height: 75px;
+}
+#leftbox .bb1 i:hover{
+    /* -webkit-text-fill-color: orange; */
+}
+#leftbox .bb2{
+    width: 340px;
+    height: 220px;
+    background-color: rgb(248, 247, 245);
+    position: absolute;
+    left: 8%;
+    top: 62%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    animation: moveUpDown 3s infinite linear;
+    transition: all 1s linear;
+}
+#leftbox .bb2 table tr,td{
+    /* border: 1px solid black; */
+    padding: 5px;
+    text-align: left;
+    font-size: 17px;
+
+}
+#leftbox .bb2 td a{
+    text-decoration: none;
+}
+#leftbox .bb2:hover #a1{
+    text-decoration: underline;
+}
+#leftbox .bb2 a:hover{
+    text-decoration: underline;
+}
+#leftbox .bb2 table tr:first-child{
+    font-weight: 800;
+}
+#leftbox .bb2 table tr:last-child{
+    font-weight: 800;
+}
+@keyframes moveUpDown {
+    0% {
+      top: 62%;
+    }
+    50% {
+      top: 60%;
+    }
+    100% {
+      top: 62%;
+    }
+  }

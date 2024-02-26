@@ -1,0 +1,387 @@
+@media screen and (min-width: 801px) and (max-width: 1050px){
+    #section2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1050px;
+    }
+    #continer{
+        padding-right: 40px;
+        max-width: 1050px;
+        height: 700px;
+        /* background-color: bisque; */
+        display: grid;
+        grid-template-areas: "a a"
+                             "b b"
+                            "c d" ;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+   
+
+    #continer .boxx1{
+        grid-area: a;
+        /* background-color: aliceblue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        
+    }
+    #continer .boxx2{
+        grid-area: b;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #continer .boxx3{
+        grid-area: c;
+        /* background-color: rgb(14, 118, 209); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+       
+    }
+    #continer .boxx3:hover h3{
+        text-decoration: underline;
+        
+        
+      }
+    #continer .boxx4{
+        grid-area: d;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        /* display: none; */
+    }
+    #continer .boxx4:hover h3{
+        text-decoration: underline;
+    }
+    #continer .boxx5{
+        grid-area: e; 
+        background-color: aliceblue;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: none;
+    }
+    #continer .boxx5:hover h3{
+        text-decoration: underline;
+        background-color: aqua;
+    }
+    #fig1{
+        /* background-color: rgb(28, 218, 129); */
+        width: fit-content;
+    }
+    #fig1 img{
+        border-radius: 20px;
+    }
+    #fig1 table tr:last-child{
+        width: 110%;
+        /* background-color: aliceblue; */
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+    #fig1 table tr:last-child i{
+       padding-left: 10px;
+       text-align: right;
+    }
+    #leftButn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+        right: 7%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gainsboro;
+    }
+    #rightButn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+        left: 7%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gainsboro;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px){
+    #section2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 770px;
+    }
+    #continer{
+        padding-right: 40px;
+        max-width: 770px;
+        height: 700px;
+        /* background-color: bisque; */
+        display: grid;
+        grid-template-areas: "a a a"
+                             "b b b"
+                            "c c c" ;
+        grid-template-rows: 50px;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+    @media(max-width:600px)
+    {
+    #continer{
+        padding-left: 10px;
+    }
+}
+    #continer .boxx1{
+        grid-area: a;
+        /* background-color: aliceblue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #continer .boxx2{
+        grid-area: b;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #continer .boxx3{
+        grid-area: c;
+        /* background-color: rgb(14, 118, 209); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+       
+    }
+    #continer .boxx3:hover h3{
+        text-decoration: underline;
+        
+        
+      }
+    #continer .boxx4{
+        grid-area: d;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: none;
+    }
+    #continer .boxx4:hover h3{
+        text-decoration: underline;
+    }
+    #continer .boxx5{
+        grid-area: e; 
+        background-color: aliceblue;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: none;
+    }
+    #continer .boxx5:hover h3{
+        text-decoration: underline;
+        background-color: aqua;
+    }
+    #fig1{
+        /* background-color: rgb(28, 218, 129); */
+        width: fit-content;
+    }
+    #fig1 img{
+        border-radius: 20px;
+    }
+    #fig1 table tr:last-child{
+        width: 110%;
+        /* background-color: aliceblue; */
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+    #fig1 table tr:last-child i{
+       padding-left: 10px;
+       text-align: right;
+    }
+    #leftButn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+        right: 7%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gainsboro;
+    }
+    #rightButn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+        left: 7%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gainsboro;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+    #section2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+    }
+    #continer{
+        padding-right: 40px;
+        max-width: 500px;
+        height: 500px;
+        /* background-color: bisque; */
+        display: grid;
+        grid-template-areas: "a a a"
+                             "b b b"
+                            "c c c" ;
+        grid-template-rows: 100px 50px 500px;
+        grid-template-columns: 500px;
+        align-items: center;
+    }
+    /* @media(max-width:600px)
+    {
+    #continer{
+        padding-left: 10px;
+    }
+} */
+    #continer .boxx1{
+        grid-area: a;
+        /* background-color: aliceblue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+        margin: -10%;
+        
+    }
+    #continer .boxx2{
+        grid-area: b;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        margin: -10%;
+    }
+    #continer .boxx3{
+        grid-area: c;
+        /* background-color: rgb(14, 118, 209); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        width: 500px;
+        margin: -10%;
+       
+    }
+    #continer .boxx3:hover h3{
+        text-decoration: underline;
+        
+        
+      }
+    #continer .boxx4{
+        grid-area: d;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: none;
+    }
+    #continer .boxx4:hover h3{
+        text-decoration: underline;
+    }
+    #continer .boxx5{
+        grid-area: e; 
+        background-color: aliceblue;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: none;
+    }
+    #continer .boxx5:hover h3{
+        text-decoration: underline;
+        background-color: aqua;
+    }
+    #fig1{
+        /* background-color: rgb(28, 218, 129); */
+        width: fit-content;
+    }
+    #fig1 img{
+        border-radius: 20px;
+    }
+    #fig1 table tr:last-child{
+        width: 110%;
+        /* background-color: aliceblue; */
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+    #fig1 table tr:last-child i{
+       padding-left: 10px;
+       text-align: right;
+    }
+    #leftButn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+        right: 7%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gainsboro;
+    }
+    #rightButn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+        left: 7%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid gainsboro;
+    }
+}

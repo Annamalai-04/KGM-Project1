@@ -1,0 +1,127 @@
+@media screen and (min-width: 801px) and (max-width: 1050px)
+{
+    #outerBox{
+        max-width: 770px;
+        height: 350px;
+        background-color: rgb(235,103,83);
+        position: absolute;
+        top: 85%;
+        left: 4%;
+        border-radius: 20px;
+        background-image: url('https://creativelayers.net/themes/homez-html/images/about/cta-img-1.png');
+        background-position-x: right;
+        background-repeat: no-repeat;
+        color: aliceblue;
+        
+    }
+    #outerBox div{
+        min-width: 80%;
+        height: 80%;
+        margin-top: 70px;
+        margin-left: 8%;
+        /* background-color: aliceblue; */
+        line-height: 40px;
+        word-spacing: 5px;
+    }
+    #outerBox div button{
+        padding: 15px;
+        width: 180px;
+        border-radius: 10px;
+        background-color: black;
+        color: aliceblue;
+        font-size: 20px;
+        transition: all 0.2s linear;
+        cursor: pointer;
+    }
+    #outerBox div button:hover{
+      background-color: orange;
+    }
+    #outerBox div button i{
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px)
+{
+    #outerBox{
+        max-width: 770px;
+        height: 350px;
+        background-color: rgb(235,103,83);
+        position: absolute;
+        top: 85%;
+        left: 1%;
+        border-radius: 20px;
+        background-image: url('https://creativelayers.net/themes/homez-html/images/about/cta-img-1.png');
+        background-position-x: right;
+        background-repeat: no-repeat;
+        color: aliceblue;
+        
+    }
+    #outerBox div{
+        min-width: 80%;
+        min-height: 80%;
+        margin-top: 70px;
+        margin-left: 8%;
+        /* background-color: aliceblue; */
+        line-height: 40px;
+        word-spacing: 5px;
+    }
+    #outerBox div button{
+        padding: 15px;
+        min-width: 180px;
+        border-radius: 10px;
+        background-color: black;
+        color: aliceblue;
+        font-size: 20px;
+        transition: all 0.2s linear;
+        cursor: pointer;
+    }
+    #outerBox div button:hover{
+      background-color: orange;
+    }
+    #outerBox div button i{
+        padding-left: 10px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+    #outerBox{
+        max-width: 500px;
+        height: 350px;
+        background-color: rgb(235,103,83);
+        position: absolute;
+        top: 85%;
+        left: 1%;
+        border-radius: 20px;
+        background-image: url('https://creativelayers.net/themes/homez-html/images/about/cta-img-1.png');
+        background-position-x: right;
+        background-repeat: no-repeat;
+        color: aliceblue;
+        
+    }
+    #outerBox div{
+        width: 80%;
+        height: 80%;
+        margin-top: 70px;
+        margin-left: 8%;
+        /* background-color: aliceblue; */
+        line-height: 40px;
+        word-spacing: 5px;
+    }
+    #outerBox div button{
+        padding: 15px;
+        width: 180px;
+        border-radius: 10px;
+        background-color: black;
+        color: aliceblue;
+        font-size: 20px;
+        transition: all 0.2s linear;
+        cursor: pointer;
+    }
+    #outerBox div button:hover{
+      background-color: orange;
+    }
+    #outerBox div button i{
+        padding-left: 10px;
+    }
+}

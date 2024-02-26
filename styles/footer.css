@@ -1,0 +1,131 @@
+#section6{
+    background-color: black; 
+    width: 100%;
+    height: 100vh;
+ }
+
+#footer{
+  width: 100%;
+  height: 100vh;
+  border: 1px solid white;
+}
+#leftfooter{
+    width: 50%;
+    height: 100vh;
+    /* background-color: rgb(19, 19, 19); */
+    float: left;
+    color: white;
+}
+#rightfooter{
+    width: 50%;
+    height: 100vh;
+    /* background-color: blue; */
+    float: right;
+    position: relative;
+}
+#toprightfooter{
+    width: 100%;
+    height: 25vh;
+    /* background-color: aquamarine; */
+}
+#bottomrightfooter{
+    width: 100%;
+    height: 50vh;
+    /* background-color: rgb(127, 255, 133); */
+}
+ 
+#leftfooter table{
+  margin: 40px;
+  padding: 40px;
+  width: 100%;
+}
+#leftfooter table tr td{
+   
+    padding: 20px;
+    font-size: 20px;
+  }
+  #leftfooter table tr td div{
+    float: right;
+    /* background-color: aqua; */
+    width: 100px;
+    position: relative;
+    top: 10px;
+    width: 150px;
+  }
+  #leftfooter table tr td span{
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(86, 84, 84);
+    color: white;
+  }
+.btn i{
+    font-size: 40px;
+    margin: 0;
+    /* background-color: rgb(166, 20, 20); */
+    display: inline-block;
+    height: 80px;
+    width: 40px;
+    position: relative;
+    top: 10px;
+  } 
+  #leftfooter table tr td span:hover{
+    background-color: orange;
+  }
+.social i{
+  font-size: 20px;
+  padding: 20px;
+  color: rgb(184, 179, 179);
+}
+.social i:hover{
+  background-color: gray;
+  border-radius: 50%;
+}
+#rightfooter h2{
+  font-size: 2em;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: aliceblue;
+  margin-left: 40px;
+  padding-top: 30px;
+}
+#rightfooter input{
+  width: 80%;
+  padding: 20px;
+  margin-left: 40px;
+  border-radius: 10px;
+  position: relative;
+  background-color: rgb(82, 80, 80);
+
+}
+#rightfooter input::placeholder{
+  color:white;
+}
+#rightfooter span{
+  position: absolute;
+  z-index: 100;
+  left: 78%;
+  top: 19%;
+  font-size: 20px;
+  font-weight: 800;
+  color: aliceblue;
+}
+#bottomrightfooter table {
+  border-collapse: separate; 
+  border-spacing: 10; 
+  color: white;
+  text-align: left;
+}
+#bottomrightfooter td, #bottomrightfooter th {
+  padding-right: 105px;
+  padding-top: 25px;
+  /* border: 1px solid wheat; */
+  text-align: left;
+}
+#bottomrightfooter table th{
+  font-size: 25px;
+ 
+}

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+    <link rel="stylesheet" href="../styles/toggle.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/section9.css">
+    <link rel="stylesheet" href="../styles/section8.css">
+    <link rel="stylesheet" href="../styles/outerbox.css">
+    <link rel="stylesheet" href="../styles/section1.css">
+    <link rel="stylesheet" href="../styles/outerinput.css">
+    <link rel="stylesheet" href="../styles/section2.css">
+    <link rel="stylesheet" href="../styles/section7.css">
+    <link rel="stylesheet" href="../styles/section3.css">
+    <link rel="stylesheet" href="../styles/section4.css">
+    <link rel="stylesheet" href="../styles/section5.css">
+    <link rel="stylesheet" href="../styles/responsivenav.css">
+    <link rel="stylesheet" href="../styles/responsiveouterbox.css">
+    <link rel="stylesheet" href="../styles/responsiveouterinput.css">
+    <link rel="stylesheet" href="../styles/responsivesection1.css">
+    <link rel="stylesheet" href="../styles/responsivesection2.css">
+    <link rel="stylesheet" href="../styles/responsivesection3.css">
+    <link rel="stylesheet" href="../styles/responsivesection4.css">
+    <link rel="stylesheet" href="../styles/responsivesection5.css">
+    <link rel="stylesheet" href="../styles/responsivesection7.css">
+    <link rel="stylesheet" href="../styles/responsivesection8.css">
+    <link rel="stylesheet" href="../styles/responsivesection9.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <header>
+        <nav id="nav1">
+            <ul id="nav1left">
+                <li><img id="imgchg" src="../assets/svg.png" alt="homez"></li>
+                <li id="home">Home <i class="fas fa-chevron-down"></i></li>
+                <li id="listing">Listing <i class="fas fa-chevron-down"></i></li>
+                <li id="property">Property <i class="fas fa-chevron-down"></i></li>
+                <li id="blog">Blog <i class="fas fa-chevron-down"></i></li>
+                <li id="pages">Pages <i class="fas fa-chevron-down"></i></li>
+            </ul>
+            <div id="hometoggle">
+                <h5>home1</h5>
+                <h5>home2</h5>
+                <h5>home3</h5>
+                <h5>home4</h5>
+                <h5>home5</h5>
+                <h5>home6</h5>
+                <h5>home7</h5>
+                <h5>home8</h5>
+                <h5>home9</h5>
+            </div> 
+            <div id="listtoggle">
+                <table>
+                    <tr id="listheading">
+                        <th>Grid View</th>
+                        <th>Map View</th>
+                        <th>List View</th>
+                    </tr>
+                    <tr>
+                        <td>Grid 1</td>
+                        <td>Map 1</td>
+                        <td> List 1</td>
+                    </tr>
+                    <tr>
+                        <td> Grid 2</td>
+                        <td>Map 2</td>
+                        <td>List 2</td>
+                    </tr>
+                    <tr>
+                        <td>Grid 3</td>
+                        <td>Map 3</td>
+                        <td>List 3</td>
+                    </tr>
+                    <tr>
+                        <td>Grid 4</td>
+                        <td>Map 4</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Grid 5</td>
+                        <td>Map 5</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Grid 6</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Grid 7</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div> 
+            <div id="proptoggle">
+                <h5 id="agent" class="p-2">Agent&nbsp;&nbsp;&gt;</h5>
+                <h5 id="dashboard" class="p-2">Dashboard&nbsp;&nbsp;&gt;</h5>
+                <h5 id="mapstyle" class="p-2">Map Style&nbsp;&nbsp;&gt;</h5>
+                <h5 id="singlestyle" class="p-2">Single Style&nbsp;&nbsp;&gt;</h5>
+            </div> 
+            <div id="agenttoggle">
+                <h5>hello1</h5>
+                <h5>hello1</h5>
+                <h5>hello1</h5>
+                <h5>hello1</h5>
+            </div>
+            <div id="dashboardtoggle">
+                <h5>hello2</h5>
+                <h5>hello2</h5>
+                <h5>hello2</h5>
+            </div>
+            <div id="mapstyletoggle">
+                <h5>hello3</h5>
+                <h5>hello3</h5>
+                <h5>hello3</h5>
+            </div>
+            <div id="singlestyletoggle">
+                <h5>hello4</h5>
+                <h5>hello4</h5>
+                <h5>hello4</h5>
+            </div>
+            <div id="blogtoggle">
+                
+                <h5>blog 1</h5>
+                <h5>blog 2</h5>
+                <h5>blog 3</h5>
+                <h5>blog 4</h5>
+                <h5>blog 5</h5>
+            </div> 
+            <div id="pagetoggle">
+                <h5>Contact</h5>
+                <h5>Compare</h5>
+                <h5>Pricing</h5>
+                <h5>Faq</h5>
+                <h5>Login</h5>
+                <h5>Register</h5>
+            </div> 
+            <ul id="nav1right">
+                <li><i class="fa-solid fa-phone"></i> 2 911 098 7654</li>
+                <li><i class="fa-solid fa-circle-user"></i>Login/Register</li>
+                <li><button>Add Property<i class="fa-solid fa-up-right-from-square"></i></button></li>
+                <li><i class="fa-solid fa-bars"></i></li>
+            </ul>
+        </nav>
+          
+</header>
+<div id="nav2">
+    <a href="#">Buy</a>
+    <a href="#">Rent</a>
+    <a href="">Sold</a>
+</div>
+<main id="main">
+    <section id="section1">
+        <div id="outerinput">
+            <div id="inp"><i class="fa-brands fa-get-pocket"></i><input type="text" placeholder="Enter Keyword"></div>
+            <div id="apt">Apartments<i class="fa-solid fa-caret-down"></i></div>
+            <div id="acd"><i class="fa-solid fa-sliders"></i>Advanced<span><i class="fa-solid fa-magnifying-glass"></i></span></div>
+            
+        </div>
+        <div id="apartmenttoggle">
+            <h4 id="ap1">houses</h4>
+            <h4 id="ap2">Buildings</h4>
+            <h4 id="ap3">Bunglow</h4>
+            <h4 id="ap4">Office</h4>
+            <h4 id="ap5">Villa</h4>
+        </div>
+        <div id="disp">
+            <h1>Find Your Dream Home</h1>
+            <h3>Lets find a home that perfect to you</h3>
+        </div>
+        <div id="firstouter"> 
+            <div class="hos1">
+              
+                <figure id="fig0"><i class="fa-solid fa-house-chimney m-3"></i></figure><h2>Houses</h2><p>22 Properties</p>
+            </div>
+            <div class="hos2">
+                <figure id="fig0"><i class="fa-solid fa-building m-3"></i></figure><h2>Apartments</h2><p>22 Properties</p>
+            </div>
+            <div class="hos3">
+                <figure id="fig0"><i class="fa-solid fa-briefcase m-3"></i></figure><h2>Office</h2><p>22 Properties</p>
+            </div>
+            <div class="hos4">
+                <figure id="fig0"><i class="fa-solid fa-city m-3"></i></figure><h2>Villa</h2><p>22 Properties</p>
+            </div>
+            <div class="hos5">
+                <figure id="fig0"><i class="fa-solid fa-gopuram m-3"></i></figure><h2>Townhome</h2><p>22 Properties</p>
+            </div>
+        </div>
+    </section>
+    <section id="section2">
+        <div id="continer">
+           <div class="boxx1">
+             <h1 class="fs-1">Discover Our Featured Listings</h1>
+             <p class="fs-5 p-0">Aliquam lacinia diam quis lacus euismod</p>
+           </div>
+           <div class="boxx2">
+            <h4>See All Properties<i class="fa-solid fa-arrow-up-right-dots ps-3"></i></h4>
+           </div>
+           <div class="boxx3">
+            <figure id="fig1"><img src="https://creativelayers.net/themes/homez-html/images/listings/g1-2.jpg">
+                <figcaption>
+            <div id="cardText">
+                <table>
+                    <tr>
+                <td colspan="2">
+                    <h3>Luxuary villa in Rego Park</h3>
+                    <p class="p-0">Califorina City, CA,USA</p>
+               </td>
+                </tr>
+                <tr>
+                <td colspan="2" class="d-flex justify-content-evenly pb-3">
+                    <a><i class="fa-solid fa-bed"></i>3 bed</a>
+                    <a><i class="fa-solid fa-bath"></i>4 bath</a>
+                    <a><i class="fa-solid fa-chart-area"></i>1200 sqrt</a>
+                   
+                </td>
+                </tr>
+                <tr style="border-top: 1px solid rgb(189, 184, 181);" class="mt-3 pt-2">
+                   <td>For Rent</td>
+                   <td style="text-align: right;">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </td>
+                </tr>
+                </table>
+            </div>
+            </figcaption>
+            </figure>
+           </div>
+           <div class="boxx4">
+            <figure id="fig1"><img src="https://creativelayers.net/themes/homez-html/images/listings/g1-2.jpg">
+                <figcaption>
+            <div id="cardText">
+                <table>
+                    <tr>
+                <td colspan="2">
+                    <h3>Luxuary villa in Rego Park</h3>
+                    <p class="p-0">Califorina City, CA,USA</p>
+               </td>
+                </tr>
+                <tr>
+                <td colspan="2" class=" d-flex justify-content-evenly pb-3">
+                    <a><i class="fa-solid fa-bed"></i>3 bed</a>
+                    <a><i class="fa-solid fa-bath"></i>4 bath</a>
+                    <a><i class="fa-solid fa-chart-area"></i>1200 sqrt</a>
+                    
+                </td>
+                </tr>
+                <tr style="border-top: 1px solid rgb(189, 184, 181);" class="mt-3 pt-2">
+                   <td>For Rent</td>
+                   <td style="text-align: right;">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </td>
+                </tr>
+                </table>
+            </div>
+            </figcaption>
+            </figure>
+           </div>
+           <div class="boxx5">
+            <figure id="fig1"><img src="https://creativelayers.net/themes/homez-html/images/listings/g1-2.jpg">
+                <figcaption>
+            <div id="cardText">
+                <table>
+                    <tr>
+                <td colspan="2">
+                    <h3>Luxuary villa in Rego Park</h3>
+                    <p class="p-0">Califorina City, CA,USA</p>
+               </td>
+                </tr>
+                <tr>
+                <td colspan="2" class="d-flex justify-content-evenly pb-3">
+                    <a><i class="fa-solid fa-bed"></i>3 bed</a>
+                    <a><i class="fa-solid fa-bath"></i>4 bath</a>
+                    <a><i class="fa-solid fa-chart-area"></i>1200 sqrt</a>
+                    
+                </td>
+                </tr>
+                <tr style="border-top: 1px solid rgb(189, 184, 181);" class="mt-3 pt-2">
+                   <td>For Rent</td>
+                   <td style="text-align: right;">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i class="fa-regular fa-square-plus"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </td>
+                </tr>
+                </table>
+            </div>
+            </figcaption>
+            </figure>
+           </div>
+            
+        </div>
+        <div id="leftButn"><i class="fa-solid fa-arrow-right"></i></div>
+        <div id="rightButn"><i class="fa-solid fa-arrow-left"></i></div>
+    </section>
+    <section id="section3">
+        <div id="continer">
+            <div class="cont1 p-5">
+                <h1>Explore Cites</h1>
+                <p class="p-0">Aliauam lacinia diam quis lacus euismod</p>
+            </div>
+            <div class="cont2"></div>
+            <div class="cont3">
+                <span>
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-regular fa-circle-dot"></i>
+                    <i class="fa-regular fa-circle-dot"></i>
+                    <i class="fa-regular fa-circle-dot"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+            <div class="cont4">
+                <figure id="fig2"><img src="https://creativelayers.net/themes/homez-html/images/listings/city-listing-1.jpg"><div><h3>Los Angeles</h3><br>12 Properties</div>
+
+            </div>
+            <div class="cont5">
+                <figure id="fig2"><img src="https://creativelayers.net/themes/homez-html/images/listings/city-listing-1.jpg"><div><h3>Los Angeles</h3><br>12 Properties</div>
+
+            </div>
+            <div class="cont6">
+                <figure id="fig2"><img src="https://creativelayers.net/themes/homez-html/images/listings/city-listing-1.jpg"><div><h3>Los Angeles</h3><br>12 Properties</div>
+
+            </div>
+            <div class="cont7">
+                <figure id="fig2"><img src="https://creativelayers.net/themes/homez-html/images/listings/city-listing-1.jpg"><div><h3>Los Angeles</h3><br>12 Properties</div>
+
+            </div>
+        </div>
+    </section>
+    <section id="section4">
+        <div id="continer">
+            <div class="pack1">
+                <h1>See how Realton can help</h1>
+                <p>Aliquam lacinia diam quis lacus euismod</p>
+            </div>
+            <div class="pack2">
+                <figure id="fig3">
+                    <img src="https://creativelayers.net/themes/homez-html/images/icon/property-buy-2.svg">
+                    <div>
+                        <h3 class="pt-2">Buy a property</h3>
+                        <p class="pt-2">Nullam sollictudin blandit eros eu pretium Nullam 
+                            maximus ultricies auctor.
+                        </p>
+                        <button class="mt-4 btn btn-outline-danger btn-lg">find a home <i class="fa-solid fa-arrow-up-right-dots ps-3"></i> </button>
+                    </div>
+                 </figure>
+            </div>
+            <div class="pack3">
+                <figure id="fig3">
+                    <img src="https://creativelayers.net/themes/homez-html/images/icon/property-sell-2.svg" height="170px">
+                    <div>
+                        <h3 class="pt-2">Buy a property</h3>
+                        <p class="pt-2">Nullam sollictudin blandit eros eu pretium Nullam 
+                            maximus ultricies auctor.
+                        </p>
+                        <button class="mt-1 btn btn-outline-danger btn-lg">find a home <i class="fa-solid fa-arrow-up-right-dots ps-3"></i> </button>
+                    </div>
+                    </figure>
+            </div>
+            <div class="pack4">
+                <figure id="fig3">
+                    <img src="https://creativelayers.net/themes/homez-html/images/icon/property-rent-2.svg">
+                    <div>
+                        <h3 class="pt-2">Buy a property</h3>
+                        <p class="pt2"> Nullam sollictudin blandit eros eu pretium Nullam 
+                            maximus ultricies auctor.
+                        </p>
+                        <button class="mt-4 btn btn-outline-danger btn-lg">find a home <i class="fa-solid fa-arrow-up-right-dots ps-3"></i> </button>
+                    </div>
+                    </figure>
+            </div>
+        </div>
+    </section>
+    <section id="section5">
+        <div id="Continer">
+            <div id="leftbox">
+                <div class="bb1">
+                    <i class="fa-solid fa-circle-play"></i>
+                    <span>Watch Video</span>
+                </div>
+                <div class="bb2">
+                    <table>
+                        <tr>
+                            <td><a id="a1">Equestrain Family Home</a></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><p class="p-0">California City,CA USA</p></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="me-2"><i class="fa-solid fa-bed"></i>3 bed</a>
+                                <a class="me-2"><i class="fa-solid fa-bath"></i>4 bath</a>
+                                <a class="me-3"><i class="fa-solid fa-chart-area"></i>1200 sqrt</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>View House <i class="fa-solid fa-arrow-up-right-dots ps-3"></i></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="rightbox">
+                <h1>With Us Help You Find <br>Your Dream Home</h1>
+                <p>As the complexity of buildings to increase, the field<br>
+                   of architecture</p>
+                   <h1>400</h1>
+                   <p>Stores arround the world</p>
+                   <h1>200+</h1>
+                   <p>Stores arround the world</p>
+                   <h1>1k+</h1>
+                   <p>Stores around the world</p>
+                   <button class="btn btn-danger btn-lg ms-2">See More<i class="fa-solid fa-arrow-up-right-dots ps-3"></i> </button>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="section6">abc</section> -->
+    <section id="section7">
+        <span id="continer7">
+            <h2>Testimonials</h2>
+            <p>10,000+ unique online course list disigns</p>
+            <i class="fa-solid fa-quote-left p-4"></i>
+            <h2>What a great experience! I have visited one of the workshops and </h2>
+            <h2>attended a masterclass, and both were super useful for young </h2>
+            <h2>designers. Highly recommended.</h2>
+            <h4>Ali Tufan</h4>
+            <p>Product Manager, Apple Inc</p>
+            <div>
+                <img src="https://creativelayers.net/themes/homez-html/images/testimonials/testi-2.png">
+                <img src="https://creativelayers.net/themes/homez-html/images/testimonials/testi-3.png">
+                <img src="https://creativelayers.net/themes/homez-html/images/testimonials/testi-4.png">
+                <img src="https://creativelayers.net/themes/homez-html/images/testimonials/testi-5.png">
+                <img src="https://creativelayers.net/themes/homez-html/images/testimonials/testi-1.png">
+            </div>
+        </div>
+    </section>
+    <section id="section8">
+             <div id="box">
+                <div class="box0"></div>
+                <div class="box1">
+                    <h1>Our Exclusive Agentns</h1>
+                    <p>Aliquam lacinia diam quis lacus euismod</p>
+                </div>
+                <div class="box2">
+                    <span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <i class="fa-regular fa-circle-dot"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+                <div class="box3">
+                    <figure id="fig4"><img src="https://creativelayers.net/themes/homez-html/images/team/team-1.jpg"><div><b>Arlene MacCoy</b><br>Broker</div>
+                </div>
+                <div class="box4">
+                    <figure id="fig4"><img src="https://creativelayers.net/themes/homez-html/images/team/team-2.jpg"><div><b>Arlene MacCoy</b><br>Broker</div>
+
+                </div>
+                <div class="box5">
+                    <figure id="fig4"><img src="https://creativelayers.net/themes/homez-html/images/team/team-3.jpg"><div><b>Arlene MacCoy</b><br>Broker</div>
+
+                </div>
+                <div class="box6">
+                    <figure id="fig4"><img src="https://creativelayers.net/themes/homez-html/images/team/team-4.jpg"><div><b>Arlene MacCoy</b><br>Broker</div>
+
+                </div>
+                <div class="box7">
+                    <figure id="fig4"><img src="https://creativelayers.net/themes/homez-html/images/team/team-5.jpg"><div><b>Arlene MacCoy</b><br>Broker</div>
+
+                </div>
+                <div class="box8"></div>
+                <div class="box9">
+                    <h3>Trusted by the world's best</h3>
+                </div>
+                <div class="box10">
+                    <div>
+                        <img src="https://creativelayers.net/themes/homez-html/images/partners/2.png">
+                        <img src="https://creativelayers.net/themes/homez-html/images/partners/3.png">
+                        <img src="https://creativelayers.net/themes/homez-html/images/partners/4.png">
+                        <img src="https://creativelayers.net/themes/homez-html/images/partners/5.png">
+                        <img src="https://creativelayers.net/themes/homez-html/images/partners/6.png">
+                        <img src="https://creativelayers.net/themes/homez-html/images/partners/1.png">
+                    </div>
+                </div>
+             </div>
+    </section>
+    <div id="outerBox">
+        <div>
+            <h1>Start Listing or Buying a</h1>
+            <h1>Property With Reaction</h1>
+            <h3>Talk to our experts or Browse through more properties</h3>
+            <button>Learn More<i class="fa-solid fa-arrow-up-right-dots"></i></button>
+        </div>
+    </div>
+    <section id="section9">
+        <div id="footer">
+            <div id="leftfooter">
+                <table>
+                    <tr>
+                        <td colspan="2"><img src="../assets/svg.png" width="25%" height="50px"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td style="letter-spacing: 1px; line-height: 30px; width: 250px;">Total Free Customer Care<br><b>+(0)123 050 945 02</b></td>
+                        <td style="letter-spacing: 1px; line-height: 30px;">Nee Live Support?<br><b>hi@homez.com</b></td>
+                       
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b>Apps</b></td>
+                    </tr>
+                    <tr id="size">
+                        <td><div id="butn"><i  class="fa-brands fa-apple pt-3"></i><a>Download on the<br> Apple Store</a></div></td>
+                        <td style="display: flex;"><div id="butn"><i  class="fa-brands fa-google-play pt-3"></i><a>Get in on <br>Google Play</a></div></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="letter-spacing: 1px; word-spacing: 5px; line-height: 20px;"><b></b>Follow us on social media</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="social">
+                            <i  class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="rightfooter">
+                <div id="toprightfooter">
+                    <h2>Keep Yourself Up to Date</h2>
+                    <span>Subscribe</span><input type="email" placeholder="Your Email">
+                </div>
+                <div id="bottomrightfooter">
+                    <table>
+                      <tr>
+                        <th>Popular Search</th>
+                        <th>Quick Links</th>
+                        <th>Discover</th>
+                      </tr>
+                      <tr>
+                        <td>Apartment for Rent</td>
+                        <td>Teams of Use</td>
+                        <td>Miami</td>
+                      </tr>
+                      <tr>
+                        <td>Apartment Low to hide</td>
+                        <td>Privacy Policy</td>
+                        <td>Los Angeles</td>
+                      </tr>
+                      <tr>
+                        <td>Offices for Buy</td>
+                        <td>Pricing Plans</td>
+                        <td>Chicago</td>
+                      </tr>
+                      <tr>
+                        <td>Offices for Rent</td>
+                        <td>Our Services</td>
+                        <td>New York</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>Contact Support</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>Careers</td>
+                        <td></td>
+                      </tr>
+                    </table>
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+    <div id="lastfooter">
+        <table id="lasttab">
+            <tr>
+                <td style="text-align:left;">&copy; Homez - All rights reserved</td>
+                <td style="text-align: right;">Privacy - Terms - Sitemap</td>
+            </tr>
+        </table>
+    </div>
+    </section>
+</main>
+
+
+<script src="../scripts/navbar.js"></script>
+<script src="../scripts/outerinput.js"></script>
+<script src="../scripts/navtoggle.js"></script>
+<script src="../scripts/scrollup.js"></script>
+<script src="../scripts/section5.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+
+</body>
+</html>

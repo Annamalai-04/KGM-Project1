@@ -1,0 +1,503 @@
+@media screen and (min-width: 800px) and (max-width: 1050px)
+{
+    #section9{
+        background-color: black; 
+        max-width: 1050px;
+        height: 100vh;
+    }
+    
+    #footer{
+      max-width: 1050px;
+      height: 100vh;
+      /* border: 1px solid white; */
+      padding-top: 180px;
+      /* margin-bottom: -150px; */
+    }
+    #leftfooter{
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgb(19, 19, 19); */
+        float: left;
+        color: white;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        margin-top: 10px;
+    }
+    #rightfooter{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        float: right;
+        position: relative;
+        margin-top: -45px;
+        /* margin-top: -280px; */
+        padding-left: 30px;
+    }
+    #toprightfooter{
+        width: 100%;
+        height: 25vh;
+        /* background-color: aquamarine; */
+    }
+    #bottomrightfooter{
+        width: 100%;
+        /* background-color: rgb(127, 255, 133); */
+    }
+    
+    #leftfooter table{
+      margin-top: 80px;
+      padding: 40px;
+      width: 100%;
+    } 
+      #leftfooter table tr td{
+        padding: 20px;
+        font-size: 15px;
+      }
+      #butn{
+        width: 200px;
+        height: 70px;
+        border-radius: 20px;
+        background-color: rgb(86, 84, 84);
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s linear;
+      }
+      #butn a{
+        /* background-color: aliceblue; */
+        display: inline-block;
+        text-align: center;
+        margin-left: 10px;
+        font-size: 18px;
+        line-height: 20px;
+      }
+     #butn i{
+        font-size: 40px;
+        padding-left: 10px;
+        /* background-color: rgb(166, 20, 20); */
+      } 
+      #butn:hover{
+        background-color: orange;
+      }
+    .social i{
+      font-size: 20px;
+      padding: 20px;
+      color: rgb(184, 179, 179);
+      transition: all 0.3s linear;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .social i:hover{
+      background-color: gray;
+     
+    }  
+    
+    #rightfooter h2{
+      font-size: 2em;
+      word-spacing: 5px;
+      letter-spacing: 2px;
+      color: aliceblue;
+      margin-left: 40px;
+      padding-top: 100px;
+    }
+    #rightfooter input{
+      width: 80%;
+      margin-top: 10px;
+      padding: 20px;
+      margin-left: 40px;
+      border-radius: 10px;
+      position: relative;
+      background-color: rgb(82, 80, 80);
+    }
+    #rightfooter input::placeholder{
+      color:white;
+    }
+    #rightfooter span{
+      position: absolute;
+      z-index: 100;
+      left: 69%;
+      top: 24%;
+      font-size: 20px;
+      font-weight: 800;
+      color: rgb(220, 227, 20);
+    }
+    #bottomrightfooter table {
+      border-collapse: separate; 
+      border-spacing: 10; 
+      color: white;
+      text-align: left;
+      margin-top: 50px;
+    }
+    #bottomrightfooter td, #bottomrightfooter th {
+      padding-right: 105px;
+      padding-top: 25px;
+      /* border: 1px solid wheat; */
+      text-align: left;
+    }
+    #bottomrightfooter table th{
+      font-size: 25px;
+    }
+    #lastfooter{
+      width: 100%;
+      height: 50px;
+      position: absolute;
+      bottom: -770px;
+      background-color: rgb(10, 11, 11);
+      /* border: 1px solid wheat; */
+      /* margin-top: -100px; */
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #lasttab  {
+      border-collapse: collapse;
+      border-top: 1px solid white;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    #lasttab td:nth-child(1){
+      padding: 10px;
+      text-align: left;
+    }
+    #lasttab td:nth-child(2){
+      padding: 10px;
+      text-align: right;
+    }
+    
+}
+@media screen and (min-width: 501px) and (max-width: 800px)
+{
+    #section9{
+        background-color: black; 
+        max-width: 800px;
+        height: 100vh;
+    }
+    
+    #footer{
+      max-width: 800px;
+      height: 100vh;
+      /* border: 1px solid white; */
+      padding-top: 180px;
+      /* margin-bottom: -150px; */
+    }
+    #leftfooter{
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgb(19, 19, 19); */
+        float: left;
+        color: white;
+        /* padding-left: 100px; */
+    }
+    #rightfooter{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        float: right;
+        position: relative;
+        margin-top: -280px;
+        padding-left: 30px;
+    }
+    #toprightfooter{
+        width: 100%;
+        height: 25vh;
+        /* background-color: aquamarine; */
+    }
+    #bottomrightfooter{
+        width: 100%;
+        height: 50vh;
+        /* background-color: rgb(127, 255, 133); */
+    }
+    
+    #leftfooter table{
+      margin-top: 80px;
+      padding: 40px;
+      width: 100%;
+    } 
+      #leftfooter table tr td{
+        padding: 20px;
+        font-size: 15px;
+      }
+      #butn{
+        width: 200px;
+        height: 70px;
+        border-radius: 20px;
+        background-color: rgb(86, 84, 84);
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s linear;
+      }
+      #butn a{
+        /* background-color: aliceblue; */
+        display: inline-block;
+        text-align: center;
+        margin-left: 10px;
+        font-size: 18px;
+        line-height: 20px;
+      }
+     #butn i{
+        font-size: 40px;
+        padding-left: 10px;
+        /* background-color: rgb(166, 20, 20); */
+      } 
+      #butn:hover{
+        background-color: orange;
+      }
+    .social i{
+      font-size: 20px;
+      padding: 20px;
+      color: rgb(184, 179, 179);
+      transition: all 0.3s linear;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .social i:hover{
+      background-color: gray;
+     
+    }  
+    
+    #rightfooter h2{
+      font-size: 2em;
+      word-spacing: 5px;
+      letter-spacing: 2px;
+      color: aliceblue;
+      margin-left: 40px;
+      padding-top: 100px;
+    }
+    #rightfooter input{
+      width: 80%;
+      margin-top: 10px;
+      padding: 20px;
+      margin-left: 40px;
+      border-radius: 10px;
+      position: relative;
+      background-color: rgb(82, 80, 80);
+    }
+    #rightfooter input::placeholder{
+      color:white;
+    }
+    #rightfooter span{
+      position: absolute;
+      z-index: 100;
+      left: 69%;
+      top: 24%;
+      font-size: 20px;
+      font-weight: 800;
+      color: rgb(12, 196, 15);
+    }
+    #bottomrightfooter table {
+      border-collapse: separate; 
+      border-spacing: 10; 
+      color: white;
+      text-align: left;
+      margin-top: 50px;
+    }
+    #bottomrightfooter td, #bottomrightfooter th {
+      padding-right: 100px;
+      padding-top: 25px;
+      /* border: 1px solid wheat; */
+      text-align: left;
+    }
+    #bottomrightfooter table th{
+      font-size: 25px;
+    }
+    #lastfooter{
+      max-width: 100%;
+      height: 50px;
+      position: absolute;
+      bottom: -530px;
+      background-color: rgb(21, 21, 21);
+      /* border: 1px solid wheat; */
+      /* margin-top: -100px; */
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #lasttab  {
+      border-collapse: collapse;
+      border-top: 1px solid white;
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    #lasttab td:nth-child(1){
+      padding: 10px;
+      text-align: left;
+    }
+    #lasttab td:nth-child(2){
+      padding: 10px;
+      text-align: right;
+    }
+    
+}
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+    #section9{
+        background-color: black; 
+        max-width: 500px;
+        height: 100vh;
+    }
+    
+    #footer{
+      max-width: 500px;
+      height: 100vh;
+      /* border: 1px solid white; */
+      padding-top: 200px;
+      /* margin-bottom: -150px; */
+    }
+    #leftfooter{
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgb(19, 19, 19); */
+        float: left;
+        color: white;
+        padding-left: 40px;
+    }
+    #rightfooter{
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        float: right;
+        position: relative;
+        margin-top: -230px;
+        padding-left: 30px;
+    }
+    #toprightfooter{
+        width: 100%;
+        height: 25vh;
+        margin-left: -10%;
+        /* background-color: aquamarine; */
+    }
+    #bottomrightfooter{
+        width: 100%;
+        height: 50vh;
+        /* background-color: rgb(127, 255, 133); */
+    }
+    
+    #leftfooter table{
+      margin-top: 0px;
+      /* padding: 40px; */
+      width: 100%;
+      /* background-color: aqua; */
+      margin-left: -10%;
+    } 
+      #leftfooter table tr td{
+        padding: 20px;
+        font-size: 15px;
+      }
+      #butn{
+        width: 200px;
+        height: 70px;
+        border-radius: 20px;
+        background-color: rgb(100, 96, 96);
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s linear;
+        
+      }
+      #size{
+          /* background-color: antiquewhite; */
+          
+      }
+      #butn a{
+        /* background-color: aliceblue; */
+        display: inline-block;
+        text-align: center;
+        margin-left: 10px;
+        font-size: 18px;
+        line-height: 20px;
+      }
+     #butn i{
+        font-size: 40px;
+        padding-left: 10px;
+        /* background-color: rgb(166, 20, 20); */
+      } 
+      #butn:hover{
+        background-color: orange;
+      }
+    .social i{
+      font-size: 20px;
+      padding: 20px;
+      color: rgb(184, 179, 179);
+      transition: all 0.3s linear;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .social i:hover{
+      background-color: gray;
+     
+    }  
+   
+    #rightfooter h2{
+      font-size: 2em;
+      word-spacing: 5px;
+      letter-spacing: 2px;
+      color: aliceblue;
+      margin-left: 40px;
+      padding-top: 100px;
+    }
+    #rightfooter input{
+      width: 90%;
+      margin-top: 10px;
+      padding: 20px;
+      margin-left: 40px;
+      border-radius: 10px;
+      position: relative;
+      background-color: rgb(82, 80, 80);
+    }
+    #rightfooter input::placeholder{
+      color:white;
+    }
+    #rightfooter span{
+      position: absolute;
+      z-index: 100;
+      left: 69%;
+      top: 30%;
+      font-size: 20px;
+      font-weight: 800;
+      color: rgb(14, 102, 179);
+    }
+    #bottomrightfooter table {
+      border-collapse: separate; 
+      border-spacing: 10; 
+      color: white;
+      text-align: left;
+      margin-top: 165px;
+    }
+    #bottomrightfooter td, #bottomrightfooter th {
+      padding-right: 40px;
+      padding-top: 10px;
+      /* border: 1px solid wheat; */
+      text-align: left;
+    }
+    #bottomrightfooter table th{
+      font-size: 25px;
+    }
+    #lastfooter{
+      width: 100%;
+      height: 90px;
+      position: absolute;
+      bottom: -540px;
+      background-color: rgb(10, 11, 11);
+      /* border: 1px solid wheat; */
+      /* margin-top: -100px; */
+      color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: -30px;
+    }
+    #lasttab  {
+      border-collapse: collapse;
+      border-top: 1px solid white;
+      width: 80%;
+      margin-bottom: 10px;
+    }
+    #lasttab td:nth-child(1){
+      padding: 10px;
+      text-align: left;
+    }
+    #lasttab td:nth-child(2){
+      padding: 10px;
+      text-align: right;
+    }
+    
+}
